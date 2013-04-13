@@ -1,0 +1,3 @@
+var/cache/
+*.log
+var/templates_compiled/
