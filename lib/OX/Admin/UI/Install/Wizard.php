@@ -70,7 +70,7 @@ class OX_Admin_UI_Install_Wizard
         if ($oStatus->isInstall()) {
             $aSteps = array(
                 'welcome' => 'Welcome',
-                'register' => 'Registration',
+//                'register' => 'Registration',
                 'database' => 'Database', 
                 'configuration' => 'Configuration', 
                 'finish' => 'Finish' 
@@ -85,14 +85,14 @@ class OX_Admin_UI_Install_Wizard
                 'login' => 'Administrator Login',
                 'database' => 'Database', 
                 'configuration' => 'Configuration', 
-                'register' => 'Registration',
+//                'register' => 'Registration',
                 'finish' => 'Finish' 
             );
 
             $aMeta = array(
                 'welcome' => array('secured' => false),
                 'login' => array('secured' => false),
-                'register' => array('secured' => true),
+//                'register' => array('secured' => true),
                 'database' => array('secured' => true), 
                 'configuration' => array('secured' => true),
                 'finish' => array('secured' => true) 
